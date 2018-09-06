@@ -5,3 +5,5 @@ CREATE TABLE [test].[DBAs]
 [dbaLastName] [varbinary] (50) NOT NULL
 ) ON [PRIMARY]
 GO
+ALTER TABLE [test].[DBAs] ADD CONSTRAINT [PK_DBAs] PRIMARY KEY CLUSTERED  ([dbaID]) ON [PRIMARY]
+GO

@@ -5,3 +5,5 @@ CREATE TABLE [test].[Developers]
 [developerLastName] [varbinary] (50) NOT NULL
 ) ON [PRIMARY]
 GO
+ALTER TABLE [test].[Developers] ADD CONSTRAINT [PK_Developers] PRIMARY KEY CLUSTERED  ([developerID]) ON [PRIMARY]
+GO
