@@ -1,0 +1,3 @@
+CREATE ROLE [rSQLAutomationTest]
+AUTHORIZATION [dbo]
+GO
